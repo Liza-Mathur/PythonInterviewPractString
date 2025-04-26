@@ -17,3 +17,11 @@ String questions for python interview prep
     12. Remove duplicates from a list while maintaining order
     13. Convert a list of strings to a list of their lengths using list comprehension
     14. Sort a list of tuples based on the second value
+
+3. Dictionaries & Sets (5 questions)
+    15. Count word frequency in a sentence using a dictionary
+    16. Invert a dictionary ({a:1, b:2} → {1:a, 2:b})
+    17. Group a list of words by their anagram
+    18. Merge two dictionaries and handle conflicts
+    19. Find the intersection and difference between two sets
+    
