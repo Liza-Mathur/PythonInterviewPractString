@@ -90,6 +90,13 @@ def sortTuplesList(l : list):
         # print(l)
     print(l)
 
+    l2 = sorted(l, key=lambda x: x[1])
+    print(l2)
+
+    # or
+    l.sort(key = lambda x : x[1])
+    print(l)
+
 
 if __name__=="__main__":
     # # 1. sol
