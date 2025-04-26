@@ -43,6 +43,17 @@ def targetSumPairs(l , t):
         # Not needed since python is not java (indian mom) jo harr baat pr daate. Python will handel out of bounds exception in slicing
     print(solList)
             
+def removeDuplicatesWithOrder(l:list):
+    seen = set()
+    l2 = []
+    for k in l : 
+        if k not in seen:
+            seen.add(k)
+            l2.append(k)
+    print("App 1 - ", l2)
+
+    # l3 = [i if i not in l3 for i in l]
+
 
 if __name__=="__main__":
     # # 1. sol
@@ -52,7 +63,10 @@ if __name__=="__main__":
     # l = list(range(1,50,2))
     # print(type(l))
     # rotateList(5, l)
-    # 3rd Sol
-    l = [0, -1, 2, -3, 1]
-    target = -2 
-    targetSumPairs(l, target)
+    # # 3rd Sol
+    # l = [0, -1, 2, -3, 1]
+    # target = -2 
+    # targetSumPairs(l, target)
+    # Sol 4
+    l = [2,56,2,1,7,3,1]
+    removeDuplicatesWithOrder(l)
